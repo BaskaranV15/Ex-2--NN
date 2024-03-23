@@ -83,7 +83,8 @@ class Perceptron:
 url = 'https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data'
 df = pd.read_csv(url, header=None)
 print(df.head())
-
+```
+```
 y = df.iloc[:, 4].values
 x = df.iloc[:, 0:3].values
 fig = plt.figure()
